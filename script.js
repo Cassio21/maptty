@@ -169,7 +169,6 @@ class App {
 
       workout = new Running([lat, lng], distance, duration, candece);
 
-      this.#workouts.push(workout);
     }
 
     // 👉🏻 se a atividade andar de bicicleta  estiver em execução, criar um objeto em exucução
